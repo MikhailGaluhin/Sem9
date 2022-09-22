@@ -3,7 +3,8 @@
 M = 1; N = 5. -> ""1, 2, 3, 4, 5""
 M = 4; N = 8. -> ""4, 6, 7, 8""*/
 
-int n = InputNumbers("Введите M: ");
+int m = InputNumbers("Введите M: ");
+int n = InputNumbers("Введите N: ");
 int count = 2;
 PrintNumber(n, count);
 Console.Write(1);
